@@ -686,6 +686,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -4108,4 +4109,43 @@ input, select, textarea {
 						padding: 0;
 					}
 
+	}
+	.row2{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.row2 section{
+		/* background-color: red; */
+		display: flex;
+		flex-direction: column;
+		/* justify-content: center; */
+		align-items: center;
+		text-align: center;
+		padding: none !important;
+		width: 6.5em;
+		/* height: 6.5em; */
+	}
+	.row2 img {
+		width: 3.0em;
+	}
+
+	.row2 section span{
+		padding: none;
+	}
+
+	.image-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 4.5em;
+		width: 4.5em;
+		border-radius: 50%;
+		background-color: white;
+		overflow: hidden;
+	}
+
+	.larger img{
+		width: 4.0em;;
 	}
