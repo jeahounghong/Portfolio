@@ -4126,6 +4126,7 @@ input, select, textarea {
 		padding: none !important;
 		width: 6.5em;
 		/* height: 6.5em; */
+		margin-bottom: 15px;
 	}
 	.row2 img {
 		width: 3.0em;
@@ -4136,6 +4137,7 @@ input, select, textarea {
 	}
 
 	.image-container{
+		margin-top: 5px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -4148,4 +4150,8 @@ input, select, textarea {
 
 	.larger img{
 		width: 4.0em;;
+	}
+
+	.smaller img{
+		width: 2.3em;
 	}
