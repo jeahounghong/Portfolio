@@ -2157,7 +2157,7 @@ input, select, textarea {
 	header p {
 		color: #ffffff;
 		position: relative;
-		margin: 0 0 1.5em 0;
+		margin: 0 0 0.5em 0;
 	}
 
 	header h2 + p {
@@ -3108,7 +3108,7 @@ input, select, textarea {
 
 		.spotlight.top .content, .spotlight.bottom .content {
 			left: 0;
-			padding: 5.1em 0 3.1em 0;
+			padding: 2.1em 0 3.1em 0;
 			width: 100%;
 		}
 
@@ -4154,4 +4154,8 @@ input, select, textarea {
 
 	.smaller img{
 		width: 2.3em;
+	}
+
+	.about-me{
+		/* background-color: red; */
 	}
